@@ -55,7 +55,7 @@
 
 ## Code Explanation
 
-## a. Program Inisialisasi kode
+### a. Program Inisialisasi kode
 
     ```cpp
     /*
@@ -85,47 +85,47 @@
   ![Image-Terminal-Serial](img/terminal-serial.jpg)
 - Image to Terminal Serial <br/>
 
-## Table of Remote Keys and Hexadecimal Codes (\*)
+### Table of Remote Keys and Hexadecimal Codes (\*)
 
-## IR Remote Control Button Codes
+### IR Remote Control Button Codes
 
 This section provides a reference for the button codes of the IR remote control used in this project. Each button on the remote corresponds to a unique hexadecimal code. These codes are captured by the IR receiver and used to control actions such as turning LEDs on or off.
 
-## Remote Button and Hexadecimal Codes (\*)
+### Remote Button and Hexadecimal Codes (\*)
 
-<br/>
 -----------------------------<br/>
 | Button | Hexadecimal Code |<br/>
 | ------ | -----------------|<br/>
-| CH-    | 0xFFA25D         |<br/>
-| CH     | 0xFF629D         |<br/>
-| CH+    | 0xFFE21D         |<br/>
-| <<     | 0xFF22DD         |<br/>
-| >>     | 0xFF02FD         |<br/>
-| >||    | 0xFFC23D         |<br/>
-| –      | 0xFFE01F         |<br/>
-| +      | 0xFFA857         |<br/>
-| EQ     | 0xFF906F         |<br/>
-| 100+   | 0xFF9867         |<br/>
-| 200+   | 0xFFB04F         |<br/>
-| 0      | 0xFF6897         |<br/>
-| 1      | 0xFF30CF         |<br/>
-| 2      | 0xFF18E7         |<br/>
-| 3      | 0xFF7A85         |<br/>
-| 4      | 0xFF10EF         |<br/>
-| 5      | 0xFF38C7         |<br/>
-| 6      | 0xFF5AA5         |<br/>
-| 7      | 0xFF42BD         |<br/>
-| 8      | 0xFF4AB5         |<br/>
-| 9      | 0xFF52AD         |<br/>
+| CH- | 0xFFA25D |<br/>
+| CH | 0xFF629D |<br/>
+| CH+ | 0xFFE21D |<br/>
+| << | 0xFF22DD |<br/>
+| >> | 0xFF02FD |<br/>
+| >|| | 0xFFC23D |<br/>
+| – | 0xFFE01F |<br/>
+| + | 0xFFA857 |<br/>
+| EQ | 0xFF906F |<br/>
+| 100+ | 0xFF9867 |<br/>
+| 200+ | 0xFFB04F |<br/>
+| 0 | 0xFF6897 |<br/>
+| 1 | 0xFF30CF |<br/>
+| 2 | 0xFF18E7 |<br/>
+| 3 | 0xFF7A85 |<br/>
+| 4 | 0xFF10EF |<br/>
+| 5 | 0xFF38C7 |<br/>
+| 6 | 0xFF5AA5 |<br/>
+| 7 | 0xFF42BD |<br/>
+| 8 | 0xFF4AB5 |<br/>
+| 9 | 0xFF52AD |<br/>
 -----------------------------<br/>
 <br/>
-## How to Use
+
+### How to Use
 
 - These codes are captured by the IR receiver when a corresponding button is pressed on the remote.
 - Use the hexadecimal codes in your Arduino code to perform specific actions when certain buttons are pressed.
 
-## Example Usage
+### Example Usage
 
 In your Arduino program, you can use the codes to trigger different functions. Here's an example for the button "1":
 
@@ -136,7 +136,7 @@ if (results.value == 0xFF30CF) {
 }
 ```
 
-## b. Program Kontrol Menyalakan (Menghidupkan) LED
+### b. Control Program Turns On LED
 
 ```cpp
 #include <IRremote.h>
