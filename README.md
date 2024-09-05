@@ -19,7 +19,7 @@
 ## Components (Tools & Materials):
 
 - Arduino Uno = 1 unit; <br/>
-- IR Receiver = 1 unit; <br/>
+- IR Receiver (TSOP38238) = 1 unit; <br/>
 - IR Remote = 1 unit; <br/>
 - The following is a picture of the IR Remote used: <br/>
   ![IR-Remote](img/remote-ir.png) <br/>
@@ -94,13 +94,13 @@ This section provides a reference for the button codes of the IR remote control 
 ## Remote Button and Hexadecimal Codes (1)
 
 | Button | Hexadecimal Code |
-|--------|------------------|
+| ------ | ---------------- | --- | -------- |
 | CH-    | 0xFFA25D         |
 | CH     | 0xFF629D         |
 | CH+    | 0xFFE21D         |
 | <<     | 0xFF22DD         |
 | >>     | 0xFF02FD         |
-| >||    | 0xFFC23D         |
+| >      |                  |     | 0xFFC23D |
 | –      | 0xFFE01F         |
 | +      | 0xFFA857         |
 | EQ     | 0xFF906F         |
@@ -132,6 +132,7 @@ if (results.value == 0xFF30CF) {
   digitalWrite(ledPin, HIGH);
 }
 ```
+
 ## b. Program Kontrol Menyalakan (Menghidupkan) LED
 
 ```cpp
@@ -202,5 +203,5 @@ void loop() {
 - This project demonstrates how to control multiple LEDs with an IR remote using an Arduino. It’s an excellent foundation for remote-controlled projects, such as turning devices on and off with ease.
 
 - In this project, the IR sensor receives the beam from the IR remote then demodulates the signal and converts it back to binary and passes it to the Arduino to carry out a command such as turning on the LED on each button that has been programmed.
-<br/>
-"# Remote-Control-Infrared" 
+  <br/>
+  "# Remote-Control-Infrared"
