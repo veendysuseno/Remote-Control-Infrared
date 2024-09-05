@@ -85,13 +85,13 @@
   ![Image-Terminal-Serial](img/terminal-serial.jpg)
 - Image to Terminal Serial <br/>
 
-## Table of Remote Keys and Hexadecimal Codes (1)
+## Table of Remote Keys and Hexadecimal Codes (\*)
 
 ## IR Remote Control Button Codes
 
 This section provides a reference for the button codes of the IR remote control used in this project. Each button on the remote corresponds to a unique hexadecimal code. These codes are captured by the IR receiver and used to control actions such as turning LEDs on or off.
 
-## Remote Button and Hexadecimal Codes (1)
+## Remote Button and Hexadecimal Codes (\*)
 
 <br/>
 -----------------------------<br/>
