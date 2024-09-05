@@ -93,30 +93,33 @@ This section provides a reference for the button codes of the IR remote control 
 
 ## Remote Button and Hexadecimal Codes (1)
 
-| Button | Hexadecimal Code |
-| ------ | ---------------- | --- | -------- |
-| CH-    | 0xFFA25D         |
-| CH     | 0xFF629D         |
-| CH+    | 0xFFE21D         |
-| <<     | 0xFF22DD         |
-| >>     | 0xFF02FD         |
-| >      |                  |     | 0xFFC23D |
-| –      | 0xFFE01F         |
-| +      | 0xFFA857         |
-| EQ     | 0xFF906F         |
-| 100+   | 0xFF9867         |
-| 200+   | 0xFFB04F         |
-| 0      | 0xFF6897         |
-| 1      | 0xFF30CF         |
-| 2      | 0xFF18E7         |
-| 3      | 0xFF7A85         |
-| 4      | 0xFF10EF         |
-| 5      | 0xFF38C7         |
-| 6      | 0xFF5AA5         |
-| 7      | 0xFF42BD         |
-| 8      | 0xFF4AB5         |
-| 9      | 0xFF52AD         |
-
+<br/>
+-----------------------------<br/>
+| Button | Hexadecimal Code |<br/>
+| ------ | -----------------|<br/>
+| CH-    | 0xFFA25D         |<br/>
+| CH     | 0xFF629D         |<br/>
+| CH+    | 0xFFE21D         |<br/>
+| <<     | 0xFF22DD         |<br/>
+| >>     | 0xFF02FD         |<br/>
+| >||    | 0xFFC23D         |<br/>
+| –      | 0xFFE01F         |<br/>
+| +      | 0xFFA857         |<br/>
+| EQ     | 0xFF906F         |<br/>
+| 100+   | 0xFF9867         |<br/>
+| 200+   | 0xFFB04F         |<br/>
+| 0      | 0xFF6897         |<br/>
+| 1      | 0xFF30CF         |<br/>
+| 2      | 0xFF18E7         |<br/>
+| 3      | 0xFF7A85         |<br/>
+| 4      | 0xFF10EF         |<br/>
+| 5      | 0xFF38C7         |<br/>
+| 6      | 0xFF5AA5         |<br/>
+| 7      | 0xFF42BD         |<br/>
+| 8      | 0xFF4AB5         |<br/>
+| 9      | 0xFF52AD         |<br/>
+-----------------------------<br/>
+<br/>
 ## How to Use
 
 - These codes are captured by the IR receiver when a corresponding button is pressed on the remote.
